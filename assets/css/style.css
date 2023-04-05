@@ -1822,3 +1822,13 @@ section {
     padding-top: 4px;
   }
 }
+@media screen and (max-width:500px) {
+  #pc_view{
+    display: none;
+  }
+}
+@media screen and (min-width:500px) {
+  #mobile_view{
+    display: none;
+  }
+}
