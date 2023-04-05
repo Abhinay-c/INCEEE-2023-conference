@@ -1826,11 +1826,17 @@ section {
   #pc_view{
     display: none;
   }
+  #mobile_view{
+    display: inline;
+  }
   #proceedings  {
     padding: 30px;
   }
 }
 @media screen and (min-width:500px) {
+  #pc_view{
+    display: inline;
+  }
   #mobile_view{
     display: none;
   }
