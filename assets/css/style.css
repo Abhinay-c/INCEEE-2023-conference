@@ -1826,6 +1826,9 @@ section {
   #pc_view{
     display: none;
   }
+  #proceedings  {
+    padding: 30px;
+  }
 }
 @media screen and (min-width:500px) {
   #mobile_view{
