@@ -1822,22 +1822,24 @@ section {
     padding-top: 4px;
   }
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
   #pc_view{
     display: none;
   }
   #mobile_view{
     display: inline;
-  }
-  #proceedings  {
-    padding: 30px;
   }
 }
-@media screen and (min-width:500px) {
+@media screen and (min-width:600px) {
   #pc_view{
     display: inline;
   }
   #mobile_view{
     display: none;
+  }
+}
+@media screen and (max-width: 1040px) {
+  #proceedings  {
+    padding: 20px;
   }
 }
