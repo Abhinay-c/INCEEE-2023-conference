@@ -1822,24 +1822,43 @@ section {
     padding-top: 4px;
   }
 }
+
 @media screen and (max-width:600px) {
-  #pc_view{
+  #pc_view {
     display: none;
   }
-  #mobile_view{
+
+  #mobile_view {
     display: inline;
   }
 }
+
 @media screen and (min-width:600px) {
-  #pc_view{
+  #pc_view {
     display: inline;
   }
-  #mobile_view{
+
+  #mobile_view {
     display: none;
   }
 }
+
 @media screen and (max-width: 1040px) {
-  #proceedings  {
+  #proceedings {
     padding: 20px;
   }
+}
+
+
+.journal-image-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.journal-images {
+  width: 206px;
+  height: 300px;
+  margin: 0 20px;
 }
