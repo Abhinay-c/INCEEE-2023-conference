@@ -1876,6 +1876,10 @@ section {
   height: 400px;
 }
 
+.strip-logo-2 {
+  background-color: white;
+}
+
 .img-1,
 .img-2 {
   width: 600px;
