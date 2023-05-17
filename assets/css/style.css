@@ -9,6 +9,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.strip-logo-2 {
+  background-color: white;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -1952,15 +1956,5 @@ section {
     justify-content: center;
     align-items: center;
     margin: 20px auto;
-  }
-}
-
-.chea_logo {
-  width: 400px;
-}
-
-@media (max-width: 500px) {
-  .chea_logo {
-    width: 300px;
   }
 }
